@@ -1,0 +1,43 @@
+Jul 16, 2012 9:46:43 PM rabbit.proxy.ProxyLogger setup
+INFO: Log level set to: FINEST
+Jul 16, 2012 9:46:43 PM rabbit.proxy.HttpProxy setupDNSHandler
+WARNING: This seems like a windows system, will use default sun handler for DNS
+Jul 16, 2012 9:46:44 PM rabbit.cache.ncache.NCache readCacheIndex
+INFO: No cache index found: \tmp\rcache\cache.index, treating as empty cache
+Jul 16, 2012 9:46:44 PM rabbit.handler.convert.ExternalProcessConverter <init>
+WARNING: convert -/usr/bin/gm- not found, is your path correct?
+Jul 16, 2012 9:46:44 PM rabbit.handler.ImageHandler setup
+WARNING: imageConverter: rabbit.handler.convert.ExternalProcessConverter@94948a can not convert images, using java.
+Jul 16, 2012 9:46:44 PM rabbit.handler.convert.ExternalProcessConverter <init>
+WARNING: convert -/usr/bin/gm- not found, is your path correct?
+Jul 16, 2012 9:46:44 PM rabbit.handler.ImageHandler setup
+WARNING: imageConverter: rabbit.handler.convert.ExternalProcessConverter@b179c3 can not convert images, using java.
+Jul 16, 2012 9:46:44 PM rabbit.handler.convert.ExternalProcessConverter <init>
+WARNING: convert -/usr/bin/gm- not found, is your path correct?
+Jul 16, 2012 9:46:44 PM rabbit.handler.ImageHandler setup
+WARNING: imageConverter: rabbit.handler.convert.ExternalProcessConverter@1b10d42 can not convert images, using java.
+Jul 16, 2012 9:46:44 PM rabbit.proxy.HttpProxy openSocket
+SEVERE: Failed to open serversocket on port 9666
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at rabbit.proxy.HttpProxy.openSocket(HttpProxy.java:437)
+	at rabbit.proxy.HttpProxy.setConfig(HttpProxy.java:410)
+	at rabbit.proxy.HttpProxy.setConfig(HttpProxy.java:152)
+	at rabbit.proxy.ProxyStarter.startProxy(ProxyStarter.java:72)
+	at rabbit.proxy.ProxyStarter.start(ProxyStarter.java:66)
+	at rabbit.proxy.ProxyStarter.main(ProxyStarter.java:21)
+Jul 16, 2012 9:46:44 PM rabbit.proxy.HttpProxy stop
+SEVERE: HttpProxy.stop() called, shutting down
+Jul 16, 2012 9:46:45 PM rabbit.proxy.HttpProxy setConfig
+INFO: RabbIT proxy version 4.11: Configuration loaded: ready for action.
+Jul 16, 2012 9:46:45 PM org.khelekore.rnio.impl.SingleSelectorRunner run
+FINEST: 0: going into select: 100000
+Jul 16, 2012 9:46:45 PM org.khelekore.rnio.impl.SingleSelectorRunner run
+FINEST: 1: going into select: 100000
+Jul 16, 2012 9:46:45 PM org.khelekore.rnio.impl.SingleSelectorRunner run
+FINEST: 2: going into select: 100000
+Jul 16, 2012 9:46:45 PM org.khelekore.rnio.impl.SingleSelectorRunner run
+FINEST: 3: going into select: 100000
