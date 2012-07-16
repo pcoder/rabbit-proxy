@@ -1,0 +1,21 @@
+RabbIT4 proxy Help.
+
+This file is only a very short description of the available command
+line switches to RabbIT. For more info check out the file
+htdocs/README.txt. You can also start the proxy and go to the page 
+http://<proxyhost>:<proxyport>/ 
+and you should be able to check out the documentation.
+
+command line switches: 
+
+-f inifile 
+tells the proxy to use the file inifile instead of conf/rabbit.conf.
+You can specify several -f flags to run several proxies at the same 
+time.
+
+-v --version
+makes the proxy print out its version and exit.
+
+-h | --help | -? 
+print out this helpfile and exits.
+
